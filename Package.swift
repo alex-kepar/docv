@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "TruliooDocV",
             dependencies: [
-                .product(name: "Lottie", package: "lottie-ios"),
+                .product(name: "Lottie", package: "lottie-spm"),
                 .product(name: "Connect", package: "connect-swift")
             ]
         ),
