@@ -12,7 +12,7 @@ let package = Package(
             targets: ["TruliooDocV", "TruliooCore", "TruliooSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.4.3"),
+        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.3"),
         .package(url: "https://github.com/connectrpc/connect-swift", from: "1.0.0"),
     ],
     targets: [
