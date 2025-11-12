@@ -25,11 +25,11 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TruliooCore",
-            path: "TruliooCore.xcframework"
+            path: "./TruliooCore.xcframework"
         ),
         .binaryTarget(
             name: "TruliooSDK",
-            path: "TruliooSDK.xcframework"
+            path: "./TruliooSDK.xcframework"
         )
     ]
 )
